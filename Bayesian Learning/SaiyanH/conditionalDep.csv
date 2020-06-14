@@ -1,0 +1,4 @@
+Weekly_Sales_log,IsHoliday,Fuel_Price,0.1170086639814904
+IsHoliday,Weekly_Sales_log,Q,0.08261418699386194
+Fuel_Price,Weekly_Sales_log,Q,0.09632410281949205
+Weekly_Sales_log,Fuel_Price,Q,0.14839517248771245

@@ -1,0 +1,9 @@
+ID,Parent,Child
+1,Fuel_Price,CPI
+2,Unemployment,Weekly_Sales_log
+3,Fuel_Price,Weekly_Sales_log
+4,CPI,Weekly_Sales_log
+5,IsHoliday,Weekly_Sales_log
+6,Size_log,Weekly_Sales_log
+7,Fuel_Price,Unemployment
+8,Q,IsHoliday

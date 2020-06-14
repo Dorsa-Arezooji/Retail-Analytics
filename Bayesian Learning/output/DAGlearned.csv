@@ -1,0 +1,10 @@
+ID,Variable 1,Dependency,Variable 2
+1,Dept,->,Weekly_Sales_log
+2,CPI,->,Fuel_Price
+3,CPI,->,Weekly_Sales_log
+4,Unemployment,->,Fuel_Price
+5,Unemployment,->,Weekly_Sales_log
+6,Size_log,->,Type
+7,Size_log,->,Weekly_Sales_log
+8,Q,->,IsHoliday
+9,Q,->,Fuel_Price
