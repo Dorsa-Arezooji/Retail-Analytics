@@ -1,6 +1,5 @@
 # Retail-Analytics
-Walmart sales prediction with ML
-
+Walmart sales prediction with Linear Regression and Random Forests + Bayesian Structure Learning
 
 ## Dataset
 The dataset is taken from [Kaggle](https://www.kaggle.com/manjeetsingh/retaildataset), and consists of 421,570 records:
@@ -63,7 +62,7 @@ The feature importances calculated in the previous section (RFs) are used to eli
 ![features](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/images/backward_feature_elimination.png)
 
 * The optimum selection of features is the first 6 features (Dept, Size_log, Store, week, Type, CPI), yielding an accuracy of 95.32%.
-* The 2 most important features ( Dept and Size_log ) contribute to 91.53% of the prediction accuracy.
+* The 2 most important features (Dept and Size_log) contribute to 91.53% of the prediction accuracy.
 
 ## **Comparison of the Models**
 
@@ -74,7 +73,9 @@ Random Forests| 97.07%| +high prediction accuracy  +embedded feature selection  
 
 ## Bayesian Network Structure Learning
 
-To explore the Bayesian Structure of the dataset, it needs to be categorized in order to reduce the dimensional complexity. [Bayesys](http://bayesian-ai.eecs.qmul.ac.uk/bayesys/) is used for learning the Bayesian structure of the dataset. The input and output files are availible via [Bayesian Learning](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/)
+To explore the Bayesian Structure of the dataset, it needs to be categorized in order to reduce the dimensional complexity. [Bayesys](http://bayesian-ai.eecs.qmul.ac.uk/bayesys/) is used for learning the Bayesian structure of the dataset. The input and output files are availible via [Bayesian Learning](https://github.com/Dorsa-Arezooji/Retail-Analytics/tree/master/Bayesian%20Learning).
+
+![Bayesys](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/images/Bayesys.png)
 
 * __*Refer to the [report](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/Retail-Analytics_report.pdf) for details and conclusions*__
 
