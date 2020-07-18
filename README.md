@@ -41,25 +41,24 @@ Store|	Type|	Size
 ### 1. Linear Regression
 A first intuition is that a simple, easily interpretable model like LR is a good starting point for analysis. Also, this would provide a basis for future model comparisons.
 <img src="images/LR_results.png" width="800">
-![LR](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/images/LR_results.png)
 
 * __*Refer to the [report](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/Retail-Analytics_report.pdf) for details and conclusions*__
 
 ### 2. Random Forests
 Random forests (RFs) are primarily used for classification, however they can also be used for regression (Breiman, 2001). RFs are ensembles of decision trees (DTs), whose inputs are bootstraps of the training samples. The final RF prediction is the average of all of these DTs’ predictions for a given test sample (bootstrap aggregation). Since each DT has a different bootstrap set, the variance is reduced without affecting the bias. By using this form of aggregation, RFs generally have high accuracy (less overfitting, more robust to noise), but are less interpretable than single DTs (Zhao and Zhang, 2008).
 
-![RF_algorithm](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/images/RF_algorithm.png)
+<img src="images/RF_algorithm.png" width="800">
 
 RFs are extremely flexible and obtain very high accuracies (Pavlov, 2000) while still being prone to overfitting. Furthermore, they have embedded feature selection (Saeys, Abeel and Van de Peer, 2008), hence they can be used for strategizing feature selection. Also, they provide good estimates of the test error without repeated model training associated with cross-validation which is costly.
 
-![RF](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/images/RF_results.png)
+<img src="images/RF_results.png" width="800">
 
 * __*Refer to the [report](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/Retail-Analytics_report.pdf) for details and conclusions*__
 
 ### Backward Feature Elimination
 The feature importances calculated in the previous section (RFs) are used to eliminate features one-by-one using backward feature selection.
 
-![features](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/images/backward_feature_elimination.png)
+<img src="images/backward_feature_elimination.png" width="800">
 
 * The optimum selection of features is the first 6 features (Dept, Size_log, Store, week, Type, CPI), yielding an accuracy of 95.32%.
 * The 2 most important features (Dept and Size_log) contribute to 91.53% of the prediction accuracy.
@@ -75,7 +74,7 @@ Random Forests| 97.07%| +high prediction accuracy  +embedded feature selection  
 
 To explore the Bayesian Structure of the dataset, it needs to be categorized in order to reduce the dimensional complexity. [Bayesys](http://bayesian-ai.eecs.qmul.ac.uk/bayesys/) is used for learning the Bayesian structure of the dataset. The input and output files are availible via [Bayesian Learning](https://github.com/Dorsa-Arezooji/Retail-Analytics/tree/master/Bayesian%20Learning).
 
-![Bayesys](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/images/Bayesys.png)
+<img src="images/Bayesys.png" width="800">
 
 * __*Refer to the [report](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/Retail-Analytics_report.pdf) for details and conclusions*__
 
