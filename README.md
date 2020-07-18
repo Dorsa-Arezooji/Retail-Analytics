@@ -40,6 +40,7 @@ Store|	Type|	Size
 ## Models
 ### 1. Linear Regression
 A first intuition is that a simple, easily interpretable model like LR is a good starting point for analysis. Also, this would provide a basis for future model comparisons.
+
 <img src="images/LR_results.png" width="800">
 
 * __*Refer to the [report](https://github.com/Dorsa-Arezooji/Retail-Analytics/blob/master/Retail-Analytics_report.pdf) for details and conclusions*__
